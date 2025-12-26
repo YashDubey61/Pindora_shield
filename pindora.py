@@ -113,10 +113,20 @@ for i in all_data:
     results = generator.generate_from_smiles(input_smiles, 5)
     
     generated_with_props = []
+    seen = set()  # Track unique molecules
+    
     for result_smiles in results:
         components = split_smiles_components(result_smiles)
-        component_data = []
         
+        # Create unique identifier from sorted components
+        unique_id = tuple(sorted(components))
+        
+        # Skip if already seen (duplicate)
+        if unique_id in seen:
+            continue
+        seen.add(unique_id)
+        
+        component_data = []
         for component in components:
             props = get_molecular_properties(component)
             similarity = calculate_similarity(input_smiles, component)
@@ -128,17 +138,19 @@ for i in all_data:
         
         generated_with_props.append(components)
     
-    gen_mol.append({
-        "input_smile": input_smiles,
-        "disease_name": i["disease_name"],
-        "target_symbol": i["target_symbol"],
-        "drug_name": i["drug_name"],
-        "generated_molecules": generated_with_props
-    })
-    
-    print(f"\nInput: {input_smiles} (Drug: {i['drug_name']})")
-    for j, components in enumerate(generated_with_props, 1):
-        print(f"  Generated {j}: {components}")
+    # Only add if there are unique generated molecules
+    if generated_with_props:
+        gen_mol.append({
+            "input_smile": input_smiles,
+            "disease_name": i["disease_name"],
+            "target_symbol": i["target_symbol"],
+            "drug_name": i["drug_name"],
+            "generated_molecules": generated_with_props
+        })
+        
+        print(f"\nInput: {input_smiles} (Drug: {i['drug_name']})")
+        for j, components in enumerate(generated_with_props, 1):
+            print(f"  Generated {j}: {components}")
 
 with open("generated_molecules_new.json", "w", encoding="utf-8") as f:
     json.dump(gen_mol, f, indent=2)
