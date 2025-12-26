@@ -9,19 +9,15 @@ router = APIRouter(
     responses={404: {"description": "Not found"}},
 )
 
-@router.post("/drug_konsi_doge", response_model=TextResponse)
+@router.post("/drug_konsi_ohundni_h", response_model=TextResponse)
 async def process_text(request: TextInput):
     if not request.text or len(request.text.strip()) == 0:
         raise HTTPException(status_code=400, detail="Text cannot be empty")
 
-    Pindora_instance = Pindora()
-    Pindora_instance.drug_discovery_pipeline(request.text)
-    
-    gen_mol = None
-    with open("data/generated_molecules_new.json", "r", encoding="utf-8") as f:
-        gen_mol = json.load(f)    
-
+    pindora = Pindora()
+    results = pindora.drug_discovery_pipeline(request.text)
+      
     return {
-        "results": gen_mol,
+        "results": results,
         "status": "success",
         }

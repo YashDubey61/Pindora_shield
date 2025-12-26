@@ -50,11 +50,11 @@
     "drug_name": "METFORMIN HYDROCHLORIDE",
     "generated_molecules": [
       [
-        "CN(C)C(=N)NC(=N)N.Cl",
-        "c1C(=O)OCc1ccccc1Cl"
+        "CN(C)C(=N)NC(=N)N.Cl"
       ],
       [
-        "CN(C)C(=N)NC(=N)N.Cl"
+        "CN(C)C(=N)NC(=N)N.Cl",
+        "CCc1nc2c(cccc2)n1"
       ]
     ]
   },
@@ -66,22 +66,23 @@
     "generated_molecules": [
       [
         "CN(C)C(=N)NC(=N)N",
-        "CC(=O)c1ccc(C(F)(F)F)cc1"
+        "C(CNC(C)(C)C)=O"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "[C@@H](CC(=O)Nc1ncc(Cl)cc1)C"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N"
+        "CC(=O)COC(=O)c1ccc(F)cc1Br"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "CC(C)(C)C)C(C(=O)[O-]"
+        "CC(C)(C)C)Cc1ncc(Cl)c1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(CSc1cc(F)ccc1)(=O)C"
+        "CC(=O)c1ccc(F)cc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "c1cc(Br)c(OCC)c(OC)c1"
       ]
     ]
   },
@@ -96,7 +97,7 @@
       ],
       [
         "CN(C)C(=N)NC(=N)N.Cl",
-        "c1c(C(F)(F)F)cccc1Cl"
+        "Cc1nc2ccccc2s1"
       ]
     ]
   },
@@ -119,19 +120,23 @@
     "generated_molecules": [
       [
         "CN(C)C(=N)NC(=N)N",
-        "CCc1cc2c(cc1)CCC2"
+        "[C@@H](C(=O)Nc1ncc(C(C)C)s1)C"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "[C@@H](C(=O)OC)Cc1c[nH]c2ccccc12"
+        "CC#C(C(F)(F)F)(C(F)(F)F)C"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "c1ccc(Cl)cc1Cl"
+        "CCc1ccc(OC)cc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(Cc1ccc(F)c(Cl)c1)=O"
+        "C(CSc1c(Cl)nnc2c1cccc2)=O"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "CCC#N)c1ccc(OCC)cc1"
       ]
     ]
   },
@@ -157,19 +162,11 @@
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "CC(C)(C)C)C(c1ccc(CF)(F)F)n1"
+        "C(Cc1c(Cl)cc(Cl)cc1)=O"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "[C@H](C)C(=O)Nc1ccc(F)c(Cl)c1"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "CC(C)(C)C)C(=O)c1nc(C)cc1"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "C(CCNC(=O)c1ccc(Cl)cc1)C"
+        "Cc1ccccc1Cl"
       ]
     ]
   },
@@ -203,22 +200,23 @@
     "generated_molecules": [
       [
         "CN(C)C(=N)NC(=N)N",
-        "CC#C1CCCCC1"
+        "Cc1cc(OCC)c(OC)cc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "c1ncc(OCC)n1"
+        "c1ccc(Br)cc1Br"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "C[C@@H](C(C)(C)C)CCc1ccco1"
+        "[C@@H](C)CC(NC1CCCCC1)=O"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "Cc1ccc(OCC)cc1"
+        "C(CSc1c2c([nH]c(=O)cc2)cccc1)C"
       ],
       [
-        "CN(C)C(=N)NC(=N)N"
+        "CN(C)C(=N)NC(=N)N",
+        "[C@H](CC)C(=O)[O-])Cc1ccccc1"
       ]
     ]
   },
@@ -230,10 +228,6 @@
     "generated_molecules": [
       [
         "CN(C)C(=N)NC(=N)N.Cl"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N.Cl",
-        "CC(C(C)(C)C)C(C)C"
       ]
     ]
   },
@@ -248,7 +242,7 @@
       ],
       [
         "CN(C)C(=N)NC(=N)N.Cl",
-        "c1ccc(C(C)(C)C)cc1"
+        ")Cc1cc(OCC)ccc1Br"
       ]
     ]
   },
@@ -260,14 +254,23 @@
     "generated_molecules": [
       [
         "CN(C)C(=N)NC(=N)N",
-        "C[C@@H](C)c1ccccc1"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N"
+        "C(CC(=O)NCCCC)(=O)c1ccccc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "[C@H]C(=O)[O-])Cc1c[nH]c2cccc21"
+        "CC(CC)C(=O)OC)c1ccc(Cl)cc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "C(C#N)Cc1ccccc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "CCC)C(CCSc1ccccc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "[C@@H](CC(C)C)C(=O)OCC)C(C)C"
       ]
     ]
   },
@@ -279,14 +282,22 @@
     "generated_molecules": [
       [
         "CN(C)C(=N)NC(=N)N.Cl",
-        "-c1c(C(=O)Cl)cccc1"
+        "c1ccc(NC(C)=O)cc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N.Cl",
+        "c1ccc(C(F)(F)F)cc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N.Cl"
       ],
       [
         "CN(C)C(=N)NC(=N)N.Cl",
-        "c1c(Cc2cc(F)ccc2)cccc1"
+        "c1ccc(C(OC)=O)cc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N.Cl",
+        "CCc1ccc(C(OC)=O)cc1"
       ]
     ]
   },
@@ -297,15 +308,19 @@
     "drug_name": "METFORMIN",
     "generated_molecules": [
       [
+        "CN(C)C(=N)NC(=N)N",
+        "Cc1ccncc1Br"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "CCS(=O)(=O)c1ccc(Cl)cc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "[C@H](C)C(=O)Nc1ccccc1"
+      ],
+      [
         "CN(C)C(=N)NC(=N)N"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "CC(=O)c1ccc2c(c1)OCO2"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "c1ccc(OC)cc1"
       ]
     ]
   },
@@ -316,24 +331,19 @@
     "drug_name": "METFORMIN",
     "generated_molecules": [
       [
-        "CN(C)C(=N)NC(=N)N",
-        "C#C1CCCCC1"
+        "CN(C)C(=N)NC(=N)N"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(CCc1c(Cl)c(Cl)ccc1)=O"
+        "Cc1ccccc1OC"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "[C@H](C)Cc1ccccc1"
+        "c1ccc(Br)cc1Cl"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "CC(C(F)(F)F)(C)C(F)(F)F"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "[C@H](c1ccc(C(OC)=O)cc1)C"
+        "CCCC1=O)CCn1cc(Cl)c(Cl)c1"
       ]
     ]
   },
@@ -348,11 +358,15 @@
       ],
       [
         "CN(C)C(=N)NC(=N)N.Cl",
-        "Cc1n(CCC)ncc1I"
+        "C(=O)COc1ccc(C(C)(C)C)cc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N.Cl",
-        "Cc1ccccc1Br"
+        "(C)C"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N.Cl",
+        "S(=O)(c1ccc(Cl)c(Cl)c1)=O"
       ]
     ]
   },
@@ -367,11 +381,7 @@
       ],
       [
         "CN(C)C(=N)NC(=N)N.Cl",
-        "c1c(SCC)cccc1"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N.Cl",
-        "Cc1ccc(OCC)cc1"
+        "Cc1cccc(Cl)c1Cl"
       ]
     ]
   },
@@ -382,15 +392,24 @@
     "drug_name": "METFORMIN",
     "generated_molecules": [
       [
-        "CN(C)C(=N)NC(=N)N"
+        "CN(C)C(=N)NC(=N)N",
+        "CC(=O)OCc1ccccc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(c1cc(Br)ccc1F)=O"
+        "[C@@H](C)C(=O)OCc1ccc(F)cc1Cl"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "CC(C)(C)C)C(CSc1n(C)cn1"
+        "CC[N-]C(CC)(C)C"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "[C@@H](C(=O)[O-])CC(C)C"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "S(c1ccc(Cl)cc1Cl)(=O)c1ccccc1"
       ]
     ]
   },
@@ -401,19 +420,23 @@
     "drug_name": "METFORMIN",
     "generated_molecules": [
       [
+        "CN(C)C(=N)NC(=N)N",
+        "Cc1ccnc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "[C@@H](C(=O)NC1CCCCC1)C"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "CCc1ccccc1OC"
+      ],
+      [
         "CN(C)C(=N)NC(=N)N"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "[C@H](CC(C)C)C(C)C"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "Cc1ccccc1-n1cccc1"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "Cc1cc(OCC)c(Cl)cc1"
+        "C(CSc1cc(Cl)cc(Cl)c1)=O"
       ]
     ]
   },
@@ -428,7 +451,7 @@
       ],
       [
         "CN(C)C(=N)NC(=N)N.Cl",
-        "Cc1ccccc1Cl"
+        "CCc1ccc(Cl)cc1"
       ]
     ]
   },
@@ -439,15 +462,11 @@
     "drug_name": "METFORMIN HYDROCHLORIDE",
     "generated_molecules": [
       [
-        "CN(C)C(=N)NC(=N)N.Cl",
-        "Cc1ccc(OCC)cc1"
-      ],
-      [
         "CN(C)C(=N)NC(=N)N.Cl"
       ],
       [
         "CN(C)C(=N)NC(=N)N.Cl",
-        "Cc1ccc(C(OC)=O)cc1"
+        "CS(=O)(=O)c1ccc(Cl)cc1"
       ]
     ]
   },
@@ -459,22 +478,23 @@
     "generated_molecules": [
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(CCCC)C(=O)c1occc1"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N"
+        "CC(C)(C)C)C(=O)c1occc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(COC(c1ccc(F)cc1)=O)=O"
+        "[C@@H](C(=O)NCc1occc1)C"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "CC(C(F)(F)F)(C(F)(F)F)C"
+        "CCc1ccc(OC)cc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(CSc1cc(Cl)ccc1Cl)=O"
+        "[C@H](CC(Cl)(Cl)Cl)C(C)=O"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "Cc1c(C(F)(F)F)cnn1"
       ]
     ]
   },
@@ -486,22 +506,22 @@
     "generated_molecules": [
       [
         "CN(C)C(=N)NC(=N)N",
-        "C#C1CCCCC1"
+        "[C@H](C)C(C)C)C(=O)[C@@H](C)C"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "[C@@H](C(=O)[O-])C(Cl)(Cl)Cl"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "c1cccc1Cl"
+        "c1cc(Br)cc(Cl)c1"
       ],
       [
         "CN(C)C(=N)NC(=N)N"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "Cc1c(Cl)cccc1Cl"
+        "C(CNC(Cc1ccc(Cl)cc1)=O)CC"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "Cc1ccc(OC)cc1"
       ]
     ]
   },
@@ -513,18 +533,23 @@
     "generated_molecules": [
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(CC(=O)OCc1ccccc1C)C"
+        "CCc1ccc(OC)cc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(=O)c1ccc(Cl)cc1"
+        "Cc1ccccn1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "CCc1cc(C)ccc1"
+        "[C@H](C)C(Nc1ccc(C(F)(F)F)cc1)=O"
       ],
       [
-        "CN(C)C(=N)NC(=N)N"
+        "CN(C)C(=N)NC(=N)N",
+        "[C@H](CC)C(=O)NCc1ccc(Cl)cc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "c1c(C(OC)=O)c2c(cccc2)cc1"
       ]
     ]
   },
@@ -535,23 +560,19 @@
     "drug_name": "METFORMIN",
     "generated_molecules": [
       [
+        "CN(C)C(=N)NC(=N)N",
+        "[C@H](C(=O)OC)c1ccccc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "CC(COc1c(Cl)cc(Cl)cc1)=O"
+      ],
+      [
         "CN(C)C(=N)NC(=N)N"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(CCCC)C(=O)NCC"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "CC(CSc1nc2c(s1)c(Cl)c(Cl)cc2)=O"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "CC#C(C)(C)C)C(=O)c1ccc(F)cc1"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "C(CSc1cc(Cl)c(Cl)cc1)=O"
+        "Cc1ccccc1Cl"
       ]
     ]
   },
@@ -562,23 +583,23 @@
     "drug_name": "METFORMIN",
     "generated_molecules": [
       [
-        "CN(C)C(=N)NC(=N)N",
-        "C(=O)COc1ccc(Br)cc1"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "C(CSc1nc2c(ccc(C)c2)s1)=O"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "Cc1c(C(OCC)=O)cccc1Br"
-      ],
-      [
-        "CN(C)C(=N)NC(=N)N",
-        "[C@@H](C(=O)Nc1ccc(C(C)(C)C)cc1)C"
-      ],
-      [
         "CN(C)C(=N)NC(=N)N"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "C(CCC)C(=O)Cc1ccc(Cl)cc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "[C@H](CC)C(=O)Nc1ccc(Cl)c(Cl)c1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "Cc1cc(Cl)c(F)cc1"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "CS(=O)(c1ccc(F)cc1)=O"
       ]
     ]
   },
@@ -590,23 +611,22 @@
     "generated_molecules": [
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(CSc1[nH]ncn1)(C)C"
+        "[C@@H]1CCCO1=O"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(CSc1ncnc2cccc12)=O"
+        "CC(C)(C)C)c1ccccc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "Cc1ccccc1Br"
+        "Cc1ccccc1NC(Cc1ccccc1)=O"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "C(CSc1nc2cc(Cl)c(Cl)cc2s1)=O"
+        "CCl)c1cc(C(OC)=O)ccc1"
       ],
       [
-        "CN(C)C(=N)NC(=N)N",
-        "c1Cc1ccccc1OCC"
+        "CN(C)C(=N)NC(=N)N"
       ]
     ]
   },
@@ -616,10 +636,6 @@
     "target_symbol": "NDUFV1",
     "drug_name": "METFORMIN HYDROCHLORIDE",
     "generated_molecules": [
-      [
-        "CN(C)C(=N)NC(=N)N.Cl",
-        "C(Cc1ccc(Cl)cc1)=O"
-      ],
       [
         "CN(C)C(=N)NC(=N)N.Cl"
       ]
@@ -632,19 +648,24 @@
     "drug_name": "METFORMIN",
     "generated_molecules": [
       [
-        "CN(C)C(=N)NC(=N)N"
+        "CN(C)C(=N)NC(=N)N",
+        "C(CCc1c2c(cccc2)c(Cl)c1)=O"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "CCc1c(C)cccc1"
+        "c1ccc(OCC)cc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "[C@@H]1CCCO1=O"
+        "c1cc(Cl)c(Cl)cc1"
       ],
       [
         "CN(C)C(=N)NC(=N)N",
-        "CC#C1CCCCC1"
+        "(CCc1ccccc1OC)C"
+      ],
+      [
+        "CN(C)C(=N)NC(=N)N",
+        "Cc1cc(OCC)ccc1"
       ]
     ]
   }
