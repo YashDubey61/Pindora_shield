@@ -53,7 +53,6 @@ This step produces a large pool of candidate molecular SMILES.
 Step 4: Multi-Model Molecular Evaluation
 Each generated SMILES is evaluated individually using five specialized, trained models:
 - IC50 prediction (potency)
-- pChEMBL value (bioactivity)
 - Target association score
 - Clinical phase likelihood
 - Target relevance (exploratory)
@@ -65,5 +64,13 @@ Predicted outputs are combined to filter low-potential candidates and shortlist 
 
 Step 6: Comparative Analysis & Ranking
 Shortlisted candidates are compared with existing medicines, and a ranked comparative analysis is produced to support research-level decision making.
+
+## Round 2 Vision : 
+1- Improving the accuracy of all five predictive models
+2-Introducing an orchestrator for efficient job scheduling and batch evaluation
+3-Adding automated report generation for research-ready outputs
+
+These enhancements will strengthen performance and enable scalable, system-level deployment.
+
 
 
