@@ -18,3 +18,15 @@ Existing computational tools for molecular generation and optimization often suf
 
 - Researchers struggle to generate diverse, optimized, chemically valid molecules quickly, as models often produce invalid structures, fail synthesizability checks, or overlook multi-property optimization in practical drug pipelines.
 ([ICLR Conference -openreview.org](https://openreview.net/forum?id=f43lpq1Q8i))
+
+ ![Mechanism](image.png)
+
+## Overview :
+The proposed system operates in four major stages:
+
+1 -> Disease & Target Identification
+2 -> Molecular Retrieval & Analysis
+3 -> De Novo Molecule Generation
+4 -> Comparative Evaluation & Optimization
+
+Each stage is designed to reduce manual intervention while ensuring chemical validity, diversity, and optimization across multiple drug-relevant properties.
