@@ -15,3 +15,6 @@ Existing computational tools for molecular generation and optimization often suf
 
 - Many recent transformer-based approaches demonstrate promising results in academic settings but lack validation, reproducibility, or integration into usable research workflows.
 ([arxiv.org](https://arxiv.org/html/2503.12796v1))
+
+- Researchers struggle to generate diverse, optimized, chemically valid molecules quickly, as models often produce invalid structures, fail synthesizability checks, or overlook multi-property optimization in practical drug pipelines.
+([ICLR Conference -openreview.org](https://openreview.net/forum?id=f43lpq1Q8i))
