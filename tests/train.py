@@ -35,95 +35,6 @@ from sklearn.metrics import r2_score, accuracy_score
 RANDOM_SEED = 42
 
 # ==================================================
-# 1️⃣ IC50 REGRESSION (FAST)
-# ==================================================
-X_train, X_val, y_train, y_val = train_test_split(
-    X, y_ic50, test_size=0.2, random_state=RANDOM_SEED
-)
-
-ic50_model = CatBoostRegressor(
-    iterations=300,          # 🔥 FAST
-    depth=6,                 # 🔥 shallow
-    learning_rate=0.1,       # 🔥 quick convergence
-    loss_function="RMSE",
-    random_seed=RANDOM_SEED,
-    verbose=50
-)
-
-ic50_model.fit(
-    X_train, y_train,
-    eval_set=(X_val, y_val),
-    early_stopping_rounds=30
-)
-
-print("IC50 R²:", r2_score(y_val, ic50_model.predict(X_val)))
-
-joblib.dump(
-    {"model": ic50_model, "radius": 2, "fp_size": 2048},
-    "catboost_ic50_fast.pkl"
-)
-
-# ==================================================
-# 2️⃣ ASSOCIATION SCORE REGRESSION (FAST)
-# ==================================================
-X_train, X_val, y_train, y_val = train_test_split(
-    X, y_association, test_size=0.2, random_state=RANDOM_SEED
-)
-
-association_model = CatBoostRegressor(
-    iterations=300,
-    depth=6,
-    learning_rate=0.1,
-    loss_function="RMSE",
-    random_seed=RANDOM_SEED,
-    verbose=50
-)
-
-association_model.fit(
-    X_train, y_train,
-    eval_set=(X_val, y_val),
-    early_stopping_rounds=30
-)
-
-print("Association R²:", r2_score(y_val, association_model.predict(X_val)))
-
-joblib.dump(
-    {"model": association_model, "radius": 2, "fp_size": 2048},
-    "catboost_association_fast.pkl"
-)
-
-# ==================================================
-# 3️⃣ MAX CLINICAL PHASE (FAST CLASSIFIER)
-# ==================================================
-X_train, X_val, y_train, y_val = train_test_split(
-    X, y_max_phase, test_size=0.2, random_state=RANDOM_SEED
-)
-
-max_phase_model = CatBoostClassifier(
-    iterations=250,
-    depth=5,
-    learning_rate=0.1,
-    loss_function="MultiClass",
-    random_seed=RANDOM_SEED,
-    verbose=50
-)
-
-max_phase_model.fit(
-    X_train, y_train,
-    eval_set=(X_val, y_val),
-    early_stopping_rounds=25
-)
-
-print("Max Phase Accuracy:", accuracy_score(
-    y_val, max_phase_model.predict(X_val))
-)
-
-joblib.dump(
-    {"model": max_phase_model, "radius": 2, "fp_size": 2048},
-    "catboost_max_phase_fast.pkl"
-)
-
-# ==================================================
 # 4️⃣ TARGET SYMBOL (FAST + LABEL ENCODER)
 # ==================================================
 label_encoder = LabelEncoder()
@@ -134,11 +45,14 @@ X_train, X_val, y_train, y_val = train_test_split(
 )
 
 target_model = CatBoostClassifier(
-    iterations=300,
-    depth=6,
-    learning_rate=0.1,
+    iterations=150,        # ⬇️ reduced
+    depth=5,               # ⬇️ shallower
+    learning_rate=0.15,    # ⬆️ faster convergence
     loss_function="MultiClass",
-    random_seed=RANDOM_SEED,
+    random_seed=42,
+    max_ctr_complexity=1,  # 🔥 BIG SPEED BOOST
+    bootstrap_type="Bernoulli",
+    subsample=0.8,
     verbose=50
 )
 
