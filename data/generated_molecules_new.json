@@ -1,21 +1,251 @@
 [
   {
-    "input_smile": "COc1cc2nc(N3CCN(C(=O)C4COc5ccccc5O4)CC3)nc(N)c2cc1OC.CS(=O)(=O)O",
-    "disease_name": "common cold",
-    "target_symbol": "ADRA1B",
-    "drug_name": "DOXAZOSIN MESYLATE",
+    "input_smile": "CCC1(CC)C(=O)NC(=O)N(C)C1=O",
+    "disease_name": "insomnia",
+    "target_symbol": "GABRB2",
+    "drug_name": "METHARBITAL",
     "generated_molecules": [
       [
         {
-          "smiles": "COc1cc2nc(N3CCN(C(=O)C4COc5ccccc5O4)CC3)nc(N)c2cc1OC.CS(=O)(=O)O",
+          "smiles": "CCC1(CC)C(=O)NC(=O)N(C)C1=O",
           "similarity": 1.0,
           "properties": {
             "valid": true,
-            "molecular_weight": 547.5900000000004,
-            "logp": 1.2218000000000007,
-            "hbd": 2,
-            "hba": 11,
+            "molecular_weight": 198.22199999999998,
+            "logp": 0.5009999999999999,
+            "hbd": 1,
+            "hba": 3,
+            "rotatable_bonds": 2,
+            "aromatic_rings": 0
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@](C)(O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "disease_name": "insomnia",
+    "target_symbol": "GABRG2",
+    "drug_name": "GANAXOLONE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@](C)(O)CC[C@]4(C)[C@H]3CC[C@]12C",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 332.5280000000001,
+            "logp": 4.985300000000005,
+            "hbd": 1,
+            "hba": 2,
+            "rotatable_bonds": 1,
+            "aromatic_rings": 0
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1",
+    "disease_name": "insomnia",
+    "target_symbol": "GABRA1",
+    "drug_name": "TOPIRAMATE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 339.3660000000001,
+            "logp": -0.3953999999999982,
+            "hbd": 1,
+            "hba": 8,
+            "rotatable_bonds": 3,
+            "aromatic_rings": 0
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1",
+    "disease_name": "insomnia",
+    "target_symbol": "GABRA2",
+    "drug_name": "TOPIRAMATE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 339.3660000000001,
+            "logp": -0.3953999999999982,
+            "hbd": 1,
+            "hba": 8,
+            "rotatable_bonds": 3,
+            "aromatic_rings": 0
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+    "disease_name": "insomnia",
+    "target_symbol": "GABRA3",
+    "drug_name": "DIAZEPAM",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 284.74600000000004,
+            "logp": 3.153800000000002,
+            "hbd": 0,
+            "hba": 2,
+            "rotatable_bonds": 1,
+            "aromatic_rings": 2
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+    "disease_name": "insomnia",
+    "target_symbol": "GABRA5",
+    "drug_name": "DIAZEPAM",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 284.74600000000004,
+            "logp": 3.153800000000002,
+            "hbd": 0,
+            "hba": 2,
+            "rotatable_bonds": 1,
+            "aromatic_rings": 2
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+    "disease_name": "insomnia",
+    "target_symbol": "GABRG1",
+    "drug_name": "DIAZEPAM",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 284.74600000000004,
+            "logp": 3.153800000000002,
+            "hbd": 0,
+            "hba": 2,
+            "rotatable_bonds": 1,
+            "aromatic_rings": 2
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1",
+    "disease_name": "insomnia",
+    "target_symbol": "GABRG3",
+    "drug_name": "TOPIRAMATE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 339.3660000000001,
+            "logp": -0.3953999999999982,
+            "hbd": 1,
+            "hba": 8,
+            "rotatable_bonds": 3,
+            "aromatic_rings": 0
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CCC(=O)NCC[C@@H]1CCc2ccc3c(c21)CCO3",
+    "disease_name": "insomnia",
+    "target_symbol": "MTNR1B",
+    "drug_name": "RAMELTEON",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CCC(=O)NCC[C@@H]1CCc2ccc3c(c21)CCO3",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 259.34899999999993,
+            "logp": 2.5676000000000005,
+            "hbd": 1,
+            "hba": 2,
             "rotatable_bonds": 4,
+            "aromatic_rings": 1
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CCC(=O)NCC[C@@H]1CCc2ccc3c(c21)CCO3",
+    "disease_name": "insomnia",
+    "target_symbol": "MTNR1A",
+    "drug_name": "RAMELTEON",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CCC(=O)NCC[C@@H]1CCc2ccc3c(c21)CCO3",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 259.34899999999993,
+            "logp": 2.5676000000000005,
+            "hbd": 1,
+            "hba": 2,
+            "rotatable_bonds": 4,
+            "aromatic_rings": 1
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "Cc1ncc(OC[C@@]2(c3cccc(F)c3)C[C@H]2C(=O)Nc2ccc(F)cn2)c(C)n1",
+    "disease_name": "insomnia",
+    "target_symbol": "HCRTR2",
+    "drug_name": "LEMBOREXANT",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "Cc1ncc(OC[C@@]2(c3cccc(F)c3)C[C@H]2C(=O)Nc2ccc(F)cn2)c(C)n1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 410.4240000000001,
+            "logp": 3.742040000000002,
+            "hbd": 1,
+            "hba": 5,
+            "rotatable_bonds": 6,
             "aromatic_rings": 3
           }
         }
@@ -23,23 +253,115 @@
     ]
   },
   {
-    "input_smile": "COc1cc2nc(N3CCN(C(=O)C4COc5ccccc5O4)CC3)nc(N)c2cc1OC.CS(=O)(=O)O",
-    "disease_name": "common cold",
-    "target_symbol": "ADRA1A",
-    "drug_name": "DOXAZOSIN MESYLATE",
+    "input_smile": "Cc1ccc(-n2nccn2)c(C(=O)N2CCN(c3nc4cc(Cl)ccc4o3)CC[C@H]2C)c1",
+    "disease_name": "insomnia",
+    "target_symbol": "HCRTR1",
+    "drug_name": "SUVOREXANT",
     "generated_molecules": [
       [
         {
-          "smiles": "COc1cc2nc(N3CCN(C(=O)C4COc5ccccc5O4)CC3)nc(N)c2cc1OC.CS(=O)(=O)O",
+          "smiles": "Cc1ccc(-n2nccn2)c(C(=O)N2CCN(c3nc4cc(Cl)ccc4o3)CC[C@H]2C)c1",
           "similarity": 1.0,
           "properties": {
             "valid": true,
-            "molecular_weight": 547.5900000000004,
-            "logp": 1.2218000000000007,
-            "hbd": 2,
-            "hba": 11,
+            "molecular_weight": 450.9300000000002,
+            "logp": 4.111320000000004,
+            "hbd": 0,
+            "hba": 7,
+            "rotatable_bonds": 3,
+            "aromatic_rings": 4
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CC(CN1c2ccccc2Sc2ccccc21)N(C)C.Cl",
+    "disease_name": "insomnia",
+    "target_symbol": "HRH1",
+    "drug_name": "PROMETHAZINE HYDROCHLORIDE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CC(CN1c2ccccc2Sc2ccccc21)N(C)C.Cl",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 320.88899999999995,
+            "logp": 4.6612000000000045,
+            "hbd": 0,
+            "hba": 3,
+            "rotatable_bonds": 3,
+            "aromatic_rings": 2
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1",
+    "disease_name": "insomnia",
+    "target_symbol": "GABRB3",
+    "drug_name": "TOPIRAMATE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 339.3660000000001,
+            "logp": -0.3953999999999982,
+            "hbd": 1,
+            "hba": 8,
+            "rotatable_bonds": 3,
+            "aromatic_rings": 0
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1.Cl.Cl",
+    "disease_name": "insomnia",
+    "target_symbol": "HTR2A",
+    "drug_name": "TRIFLUOPERAZINE HYDROCHLORIDE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1.Cl.Cl",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 480.4270000000002,
+            "logp": 5.7892000000000055,
+            "hbd": 0,
+            "hba": 4,
             "rotatable_bonds": 4,
-            "aromatic_rings": 3
+            "aromatic_rings": 2
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CNC(C)(C)Cc1ccccc1",
+    "disease_name": "insomnia",
+    "target_symbol": "ADRA2B",
+    "drug_name": "MEPHENTERMINE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CNC(C)(C)Cc1ccccc1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 163.264,
+            "logp": 2.2271,
+            "hbd": 1,
+            "hba": 1,
+            "rotatable_bonds": 3,
+            "aromatic_rings": 1
           }
         }
       ]
@@ -47,8 +369,8 @@
   },
   {
     "input_smile": "CCNC(C)Cc1cccc(C(F)(F)F)c1",
-    "disease_name": "common cold",
-    "target_symbol": "SIGMAR1",
+    "disease_name": "insomnia",
+    "target_symbol": "HTR2C",
     "drug_name": "FENFLURAMINE",
     "generated_molecules": [
       [
@@ -69,8 +391,261 @@
     ]
   },
   {
+    "input_smile": "CC(COc1ccccc1)N(CCCl)Cc1ccccc1.Cl",
+    "disease_name": "insomnia",
+    "target_symbol": "ADRA2A",
+    "drug_name": "PHENOXYBENZAMINE HYDROCHLORIDE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CC(COc1ccccc1)N(CCCl)Cc1ccccc1.Cl",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 340.2939999999999,
+            "logp": 4.616700000000005,
+            "hbd": 0,
+            "hba": 2,
+            "rotatable_bonds": 8,
+            "aromatic_rings": 2
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CS(=O)(=O)O.Cc1ccc(N(CC2=NCCN2)c2cccc(O)c2)cc1",
+    "disease_name": "insomnia",
+    "target_symbol": "ADRA2C",
+    "drug_name": "PHENTOLAMINE MESYLATE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CS(=O)(=O)O.Cc1ccc(N(CC2=NCCN2)c2cccc(O)c2)cc1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 377.466,
+            "logp": 2.3444199999999995,
+            "hbd": 3,
+            "hba": 6,
+            "rotatable_bonds": 4,
+            "aromatic_rings": 2
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CN(C)CCC=C1c2ccccc2COc2ccccc21.Cl",
+    "disease_name": "insomnia",
+    "target_symbol": "SLC6A2",
+    "drug_name": "DOXEPIN HYDROCHLORIDE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CN(C)CCC=C1c2ccccc2COc2ccccc21.Cl",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 315.844,
+            "logp": 4.384200000000005,
+            "hbd": 0,
+            "hba": 2,
+            "rotatable_bonds": 3,
+            "aromatic_rings": 2
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CC(C)CC(N(C)C)C1(c2ccc(Cl)cc2)CCC1",
+    "disease_name": "insomnia",
+    "target_symbol": "SLC6A4",
+    "drug_name": "SIBUTRAMINE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CC(C)CC(N(C)C)C1(c2ccc(Cl)cc2)CCC1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 279.8550000000001,
+            "logp": 4.738000000000005,
+            "hbd": 0,
+            "hba": 1,
+            "rotatable_bonds": 5,
+            "aromatic_rings": 1
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@](C)(O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "disease_name": "insomnia",
+    "target_symbol": "GABRA6",
+    "drug_name": "GANAXOLONE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@](C)(O)CC[C@]4(C)[C@H]3CC[C@]12C",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 332.5280000000001,
+            "logp": 4.985300000000005,
+            "hbd": 1,
+            "hba": 2,
+            "rotatable_bonds": 1,
+            "aromatic_rings": 0
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CCCCCCCCNC(C)C(O)c1ccc(SC(C)C)cc1",
+    "disease_name": "insomnia",
+    "target_symbol": "CACNA2D1",
+    "drug_name": "SULOCTIDIL",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CCCCCCCCNC(C)C(O)c1ccc(SC(C)C)cc1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 337.5730000000001,
+            "logp": 5.559100000000006,
+            "hbd": 2,
+            "hba": 3,
+            "rotatable_bonds": 12,
+            "aromatic_rings": 1
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1",
+    "disease_name": "insomnia",
+    "target_symbol": "GABRA4",
+    "drug_name": "TOPIRAMATE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 339.3660000000001,
+            "logp": -0.3953999999999982,
+            "hbd": 1,
+            "hba": 8,
+            "rotatable_bonds": 3,
+            "aromatic_rings": 0
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "NC(=O)OCC(COC(N)=O)c1ccccc1",
+    "disease_name": "influenza",
+    "target_symbol": "GRIN3A",
+    "drug_name": "FELBAMATE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "NC(=O)OCC(COC(N)=O)c1ccccc1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 238.24300000000002,
+            "logp": 0.9607999999999993,
+            "hbd": 2,
+            "hba": 4,
+            "rotatable_bonds": 5,
+            "aromatic_rings": 1
+          }
+        }
+      ]
+    ]
+  },
+  {
     "input_smile": "Cl.NC12CC3CC(CC(C3)C1)C2",
-    "disease_name": "common cold",
+    "disease_name": "influenza",
+    "target_symbol": "GRIN2D",
+    "drug_name": "AMANTADINE HYDROCHLORIDE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "Cl.NC12CC3CC(CC(C3)C1)C2",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 187.71399999999994,
+            "logp": 2.3357,
+            "hbd": 1,
+            "hba": 1,
+            "rotatable_bonds": 0,
+            "aromatic_rings": 0
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "Cl.NC12CC3CC(CC(C3)C1)C2",
+    "disease_name": "influenza",
+    "target_symbol": "GRIN2C",
+    "drug_name": "AMANTADINE HYDROCHLORIDE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "Cl.NC12CC3CC(CC(C3)C1)C2",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 187.71399999999994,
+            "logp": 2.3357,
+            "hbd": 1,
+            "hba": 1,
+            "rotatable_bonds": 0,
+            "aromatic_rings": 0
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "NC(=O)OCC(COC(N)=O)c1ccccc1",
+    "disease_name": "influenza",
+    "target_symbol": "GRIN1",
+    "drug_name": "FELBAMATE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "NC(=O)OCC(COC(N)=O)c1ccccc1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 238.24300000000002,
+            "logp": 0.9607999999999993,
+            "hbd": 2,
+            "hba": 4,
+            "rotatable_bonds": 5,
+            "aromatic_rings": 1
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "Cl.NC12CC3CC(CC(C3)C1)C2",
+    "disease_name": "influenza",
     "target_symbol": "GRIN2A",
     "drug_name": "AMANTADINE HYDROCHLORIDE",
     "generated_molecules": [
@@ -92,8 +667,54 @@
     ]
   },
   {
+    "input_smile": "NC(=O)OCC(COC(N)=O)c1ccccc1",
+    "disease_name": "influenza",
+    "target_symbol": "GRIN2B",
+    "drug_name": "FELBAMATE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "NC(=O)OCC(COC(N)=O)c1ccccc1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 238.24300000000002,
+            "logp": 0.9607999999999993,
+            "hbd": 2,
+            "hba": 4,
+            "rotatable_bonds": 5,
+            "aromatic_rings": 1
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "NC(=O)OCC(COC(N)=O)c1ccccc1",
+    "disease_name": "influenza",
+    "target_symbol": "GRIN3B",
+    "drug_name": "FELBAMATE",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "NC(=O)OCC(COC(N)=O)c1ccccc1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 238.24300000000002,
+            "logp": 0.9607999999999993,
+            "hbd": 2,
+            "hba": 4,
+            "rotatable_bonds": 5,
+            "aromatic_rings": 1
+          }
+        }
+      ]
+    ]
+  },
+  {
     "input_smile": "COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1",
-    "disease_name": "common cold",
+    "disease_name": "influenza",
     "target_symbol": "PTGS2",
     "drug_name": "INDOMETHACIN",
     "generated_molecules": [
@@ -116,7 +737,7 @@
   },
   {
     "input_smile": "CC(C)Cc1ccc(C(C)C(=O)O)cc1",
-    "disease_name": "common cold",
+    "disease_name": "influenza",
     "target_symbol": "PTGS1",
     "drug_name": "IBUPROFEN",
     "generated_molecules": [
@@ -138,54 +759,8 @@
     ]
   },
   {
-    "input_smile": "CN(C)CCC=C1c2ccccc2COc2ccccc21.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "SLC6A2",
-    "drug_name": "DOXEPIN HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CN(C)CCC=C1c2ccccc2COc2ccccc21.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 315.844,
-            "logp": 4.384200000000005,
-            "hbd": 0,
-            "hba": 2,
-            "rotatable_bonds": 3,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CC(CN1c2ccccc2Sc2ccccc21)N(C)C.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "HRH1",
-    "drug_name": "PROMETHAZINE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CC(CN1c2ccccc2Sc2ccccc21)N(C)C.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 320.88899999999995,
-            "logp": 4.6612000000000045,
-            "hbd": 0,
-            "hba": 3,
-            "rotatable_bonds": 3,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
     "input_smile": "COc1cc(CNC(=O)CCCC/C=C/C(C)C)ccc1O",
-    "disease_name": "common cold",
+    "disease_name": "influenza",
     "target_symbol": "TRPV1",
     "drug_name": "CAPSAICIN",
     "generated_molecules": [
@@ -208,7 +783,7 @@
   },
   {
     "input_smile": "CC(=O)Nc1ccc(O)cc1",
-    "disease_name": "common cold",
+    "disease_name": "influenza",
     "target_symbol": "FAAH",
     "drug_name": "ACETAMINOPHEN",
     "generated_molecules": [
@@ -230,417 +805,45 @@
     ]
   },
   {
-    "input_smile": "CC1CCC(C(C)C)C(O)C1",
-    "disease_name": "common cold",
-    "target_symbol": "TRPM8",
-    "drug_name": "MENTHOL",
+    "input_smile": "O=C(O)c1cccc(-c2noc(-c3ccccc3F)n2)c1",
+    "disease_name": "influenza",
+    "target_symbol": "RPL17",
+    "drug_name": "ATALUREN",
     "generated_molecules": [
       [
         {
-          "smiles": "CC1CCC(C(C)C)C(O)C1",
+          "smiles": "O=C(O)c1cccc(-c2noc(-c3ccccc3F)n2)c1",
           "similarity": 1.0,
           "properties": {
             "valid": true,
-            "molecular_weight": 156.26899999999998,
-            "logp": 2.4395000000000007,
+            "molecular_weight": 284.246,
+            "logp": 3.240900000000001,
             "hbd": 1,
-            "hba": 1,
-            "rotatable_bonds": 1,
-            "aromatic_rings": 0
-          }
-        }
-      ],
-      [
-        {
-          "smiles": "CC1CCC(C(C)C)C(O)C1",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 156.26899999999998,
-            "logp": 2.4395000000000007,
-            "hbd": 1,
-            "hba": 1,
-            "rotatable_bonds": 1,
-            "aromatic_rings": 0
-          }
-        },
-        {
-          "smiles": "NS(=O)(=O)c1ccccc1",
-          "similarity": 0.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 157.194,
-            "logp": 0.3340000000000002,
-            "hbd": 1,
-            "hba": 2,
-            "rotatable_bonds": 1,
-            "aromatic_rings": 1
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CC1CCC(C(C)C)C(O)C1",
-    "disease_name": "common cold",
-    "target_symbol": "TRPA1",
-    "drug_name": "MENTHOL",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CC1CCC(C(C)C)C(O)C1",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 156.26899999999998,
-            "logp": 2.4395000000000007,
-            "hbd": 1,
-            "hba": 1,
-            "rotatable_bonds": 1,
-            "aromatic_rings": 0
-          }
-        }
-      ],
-      [
-        {
-          "smiles": "CC1CCC(C(C)C)C(O)C1",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 156.26899999999998,
-            "logp": 2.4395000000000007,
-            "hbd": 1,
-            "hba": 1,
-            "rotatable_bonds": 1,
-            "aromatic_rings": 0
-          }
-        },
-        {
-          "smiles": "[C@@H](NC(=O)CSc2nncn2C)CC1",
-          "similarity": 0.0,
-          "properties": {
-            "valid": false
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CNC(C)(C)Cc1ccccc1",
-    "disease_name": "common cold",
-    "target_symbol": "ADRA2B",
-    "drug_name": "MEPHENTERMINE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CNC(C)(C)Cc1ccccc1",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 163.264,
-            "logp": 2.2271,
-            "hbd": 1,
-            "hba": 1,
+            "hba": 4,
             "rotatable_bonds": 3,
-            "aromatic_rings": 1
+            "aromatic_rings": 3
           }
         }
       ]
     ]
   },
   {
-    "input_smile": "CS(=O)(=O)O.Cc1ccc(N(CC2=NCCN2)c2cccc(O)c2)cc1",
-    "disease_name": "common cold",
-    "target_symbol": "ADRA2C",
-    "drug_name": "PHENTOLAMINE MESYLATE",
+    "input_smile": "O=C(O)c1cccc(-c2noc(-c3ccccc3F)n2)c1",
+    "disease_name": "influenza",
+    "target_symbol": "RPSA",
+    "drug_name": "ATALUREN",
     "generated_molecules": [
       [
         {
-          "smiles": "CS(=O)(=O)O.Cc1ccc(N(CC2=NCCN2)c2cccc(O)c2)cc1",
+          "smiles": "O=C(O)c1cccc(-c2noc(-c3ccccc3F)n2)c1",
           "similarity": 1.0,
           "properties": {
             "valid": true,
-            "molecular_weight": 377.466,
-            "logp": 2.3444199999999995,
-            "hbd": 3,
-            "hba": 6,
-            "rotatable_bonds": 4,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CC(COc1ccccc1)N(CCCl)Cc1ccccc1.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "ADRA2A",
-    "drug_name": "PHENOXYBENZAMINE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CC(COc1ccccc1)N(CCCl)Cc1ccccc1.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 340.2939999999999,
-            "logp": 4.616700000000005,
-            "hbd": 0,
-            "hba": 2,
-            "rotatable_bonds": 8,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "C[N+]1(C)CCC(OC(=O)C(O)(c2ccccc2)C2CCCC2)C1.[Br-]",
-    "disease_name": "common cold",
-    "target_symbol": "CHRM3",
-    "drug_name": "GLYCOPYRRONIUM BROMIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "C[N+]1(C)CCC(OC(=O)C(O)(c2ccccc2)C2CCCC2)C1.[Br-]",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 398.34100000000024,
-            "logp": -0.5396999999999981,
+            "molecular_weight": 284.246,
+            "logp": 3.240900000000001,
             "hbd": 1,
-            "hba": 3,
-            "rotatable_bonds": 4,
-            "aromatic_rings": 1
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CNC(C)(C)Cc1ccccc1",
-    "disease_name": "common cold",
-    "target_symbol": "ADRB1",
-    "drug_name": "MEPHENTERMINE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CNC(C)(C)Cc1ccccc1",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 163.264,
-            "logp": 2.2271,
-            "hbd": 1,
-            "hba": 1,
+            "hba": 4,
             "rotatable_bonds": 3,
-            "aromatic_rings": 1
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CNC(C)(C)Cc1ccccc1",
-    "disease_name": "common cold",
-    "target_symbol": "ADRB3",
-    "drug_name": "MEPHENTERMINE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CNC(C)(C)Cc1ccccc1",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 163.264,
-            "logp": 2.2271,
-            "hbd": 1,
-            "hba": 1,
-            "rotatable_bonds": 3,
-            "aromatic_rings": 1
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
-    "disease_name": "common cold",
-    "target_symbol": "ADORA3",
-    "drug_name": "ADENOSINE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 267.245,
-            "logp": -1.9800000000000006,
-            "hbd": 4,
-            "hba": 9,
-            "rotatable_bonds": 2,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "SCN3A",
-    "drug_name": "PROPAFENONE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 377.9120000000001,
-            "logp": 3.663200000000003,
-            "hbd": 2,
-            "hba": 4,
-            "rotatable_bonds": 11,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "SCN5A",
-    "drug_name": "PROPAFENONE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 377.9120000000001,
-            "logp": 3.663200000000003,
-            "hbd": 2,
-            "hba": 4,
-            "rotatable_bonds": 11,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "SCN8A",
-    "drug_name": "PROPAFENONE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 377.9120000000001,
-            "logp": 3.663200000000003,
-            "hbd": 2,
-            "hba": 4,
-            "rotatable_bonds": 11,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
-    "disease_name": "common cold",
-    "target_symbol": "ADORA2A",
-    "drug_name": "ADENOSINE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 267.245,
-            "logp": -1.9800000000000006,
-            "hbd": 4,
-            "hba": 9,
-            "rotatable_bonds": 2,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
-    "disease_name": "common cold",
-    "target_symbol": "ADORA2B",
-    "drug_name": "ADENOSINE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 267.245,
-            "logp": -1.9800000000000006,
-            "hbd": 4,
-            "hba": 9,
-            "rotatable_bonds": 2,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "SCN10A",
-    "drug_name": "PROPAFENONE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 377.9120000000001,
-            "logp": 3.663200000000003,
-            "hbd": 2,
-            "hba": 4,
-            "rotatable_bonds": 11,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CCCCc1oc2ccc(NS(C)(=O)=O)cc2c1C(=O)c1ccc(OCCCN(CCCC)CCCC)cc1.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "SCN11A",
-    "drug_name": "DRONEDARONE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CCCCc1oc2ccc(NS(C)(=O)=O)cc2c1C(=O)c1ccc(OCCCN(CCCC)CCCC)cc1.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 593.2300000000005,
-            "logp": 7.470800000000009,
-            "hbd": 1,
-            "hba": 6,
-            "rotatable_bonds": 18,
             "aromatic_rings": 3
           }
         }
@@ -648,161 +851,69 @@
     ]
   },
   {
-    "input_smile": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
-    "disease_name": "common cold",
-    "target_symbol": "ADORA1",
-    "drug_name": "ADENOSINE",
+    "input_smile": "O=C(/C=C\\n1cnc(-c2cc(C(F)(F)F)cc(C(F)(F)F)c2)n1)NNc1cnccn1",
+    "disease_name": "influenza",
+    "target_symbol": "XPO1",
+    "drug_name": "SELINEXOR",
     "generated_molecules": [
       [
         {
-          "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
+          "smiles": "O=C(/C=C\\n1cnc(-c2cc(C(F)(F)F)cc(C(F)(F)F)c2)n1)NNc1cnccn1",
           "similarity": 1.0,
           "properties": {
             "valid": true,
-            "molecular_weight": 267.245,
-            "logp": -1.9800000000000006,
-            "hbd": 4,
-            "hba": 9,
-            "rotatable_bonds": 2,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "SCN4A",
-    "drug_name": "PROPAFENONE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 377.9120000000001,
-            "logp": 3.663200000000003,
+            "molecular_weight": 443.311,
+            "logp": 3.386700000000001,
             "hbd": 2,
-            "hba": 4,
-            "rotatable_bonds": 11,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CCCCc1oc2ccc(NS(C)(=O)=O)cc2c1C(=O)c1ccc(OCCCN(CCCC)CCCC)cc1.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "SCN1A",
-    "drug_name": "DRONEDARONE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CCCCc1oc2ccc(NS(C)(=O)=O)cc2c1C(=O)c1ccc(OCCCN(CCCC)CCCC)cc1.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 593.2300000000005,
-            "logp": 7.470800000000009,
-            "hbd": 1,
-            "hba": 6,
-            "rotatable_bonds": 18,
-            "aromatic_rings": 3
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CCCCc1oc2ccc(NS(C)(=O)=O)cc2c1C(=O)c1ccc(OCCCN(CCCC)CCCC)cc1.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "SCN9A",
-    "drug_name": "DRONEDARONE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CCCCc1oc2ccc(NS(C)(=O)=O)cc2c1C(=O)c1ccc(OCCCN(CCCC)CCCC)cc1.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 593.2300000000005,
-            "logp": 7.470800000000009,
-            "hbd": 1,
-            "hba": 6,
-            "rotatable_bonds": 18,
-            "aromatic_rings": 3
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "SCN7A",
-    "drug_name": "PROPAFENONE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CCCNCC(O)COc1ccccc1C(=O)CCc1ccccc1.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 377.9120000000001,
-            "logp": 3.663200000000003,
-            "hbd": 2,
-            "hba": 4,
-            "rotatable_bonds": 11,
-            "aromatic_rings": 2
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "CCCCc1oc2ccc(NS(C)(=O)=O)cc2c1C(=O)c1ccc(OCCCN(CCCC)CCCC)cc1.Cl",
-    "disease_name": "common cold",
-    "target_symbol": "SCN2A",
-    "drug_name": "DRONEDARONE HYDROCHLORIDE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "CCCCc1oc2ccc(NS(C)(=O)=O)cc2c1C(=O)c1ccc(OCCCN(CCCC)CCCC)cc1.Cl",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 593.2300000000005,
-            "logp": 7.470800000000009,
-            "hbd": 1,
-            "hba": 6,
-            "rotatable_bonds": 18,
-            "aromatic_rings": 3
-          }
-        }
-      ]
-    ]
-  },
-  {
-    "input_smile": "C=C1/C(=C\\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)/C=C/[C@@H](O)C4CC4)CC[C@@H]23)C[C@@H](O)C[C@@H]1O",
-    "disease_name": "common cold",
-    "target_symbol": "VDR",
-    "drug_name": "CALCIPOTRIENE",
-    "generated_molecules": [
-      [
-        {
-          "smiles": "C=C1/C(=C\\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)/C=C/[C@@H](O)C4CC4)CC[C@@H]23)C[C@@H](O)C[C@@H]1O",
-          "similarity": 1.0,
-          "properties": {
-            "valid": true,
-            "molecular_weight": 412.6140000000003,
-            "logp": 5.090600000000006,
-            "hbd": 3,
-            "hba": 3,
+            "hba": 7,
             "rotatable_bonds": 5,
-            "aromatic_rings": 0
+            "aromatic_rings": 3
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "O=C(O)c1cccc(-c2noc(-c3ccccc3F)n2)c1",
+    "disease_name": "influenza",
+    "target_symbol": "RPS27A",
+    "drug_name": "ATALUREN",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "O=C(O)c1cccc(-c2noc(-c3ccccc3F)n2)c1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 284.246,
+            "logp": 3.240900000000001,
+            "hbd": 1,
+            "hba": 4,
+            "rotatable_bonds": 3,
+            "aromatic_rings": 3
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "input_smile": "O=C(O)c1cccc(-c2noc(-c3ccccc3F)n2)c1",
+    "disease_name": "influenza",
+    "target_symbol": "RPS11",
+    "drug_name": "ATALUREN",
+    "generated_molecules": [
+      [
+        {
+          "smiles": "O=C(O)c1cccc(-c2noc(-c3ccccc3F)n2)c1",
+          "similarity": 1.0,
+          "properties": {
+            "valid": true,
+            "molecular_weight": 284.246,
+            "logp": 3.240900000000001,
+            "hbd": 1,
+            "hba": 4,
+            "rotatable_bonds": 3,
+            "aromatic_rings": 3
           }
         }
       ]
