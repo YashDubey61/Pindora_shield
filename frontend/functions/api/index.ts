@@ -3,14 +3,21 @@ export async function onRequest(context: any) {
 
   const url = new URL(request.url);
 
-  // strip /api prefix
+  // remove /api from path
   const backendPath = url.pathname.replace(/^\/api/, "");
 
-  const backendUrl = `http://4.240.107.18${backendPath}${url.search}`;
+  const backendUrl = `http://4.240.107.18${backendPath}`;
 
-  return fetch(backendUrl, {
+  const init: RequestInit = {
     method: request.method,
     headers: request.headers,
-    body: request.method !== "GET" ? await request.text() : undefined,
-  });
+  };
+
+  if (request.method !== "GET" && request.method !== "HEAD") {
+    init.body = await request.text();
+  }
+
+  const response = await fetch(backendUrl, init);
+
+  return response;
 }
