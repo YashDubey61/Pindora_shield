@@ -1,9 +1,7 @@
-import Home from "./pages/home";
-import Loading from "./pages/loading";
-
+import MoleculeViewer from "./pages/MoleculeViewer";
 
 function App() {
-  return <Home />;
+  return <MoleculeViewer />;
 }
 
 export default App;
